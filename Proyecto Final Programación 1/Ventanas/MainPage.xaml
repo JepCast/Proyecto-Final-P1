@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_Programación_1.MainPage"
+             BackgroundColor="White"
+             >
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            
+            <Image
+                Source="bc1c.png"
+                SemanticProperties.Description="Logo de la marca ficticia de venta de autos"
+                HeightRequest="150"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Bienvenido" Margin="-10"
+                FontFamily="Comfortaa-Bold.ttf"
+                FontAttributes="Bold"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="35"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="ListaBtn"
+                
+                Text="Lista de Autos"
+                FontFamily="Comfortaa-Bold.ttf"
+                FontSize="25"
+                BackgroundColor="LightBlue"
+                SemanticProperties.Hint="Muestra la lista de autos actualmente disponibles"
+                Clicked="AbrirNuevaVentana"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="Conocenos"
+                
+                Text="Conocenos"
+                FontFamily="Comfortaa-Bold.ttf"
+                FontSize="25"
+                BackgroundColor="LightBlue"
+                SemanticProperties.Hint="Abre una nueva ventana que muestra información acerca de la empresa"
+                Clicked="BotonConocenos"
+                HorizontalOptions="Center" />
+
+
+            <Button
+                x:Name="ExtitBtnM"
+                Text="Salir"
+                FontFamily="Comfortaa-Bold.ttf"
+                FontSize="25"
+                BackgroundColor="LightBlue"
+                SemanticProperties.Hint="Counts the number of times you click"
+                Clicked="BotonSalida"
+                HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

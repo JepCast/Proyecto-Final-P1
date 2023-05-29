@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_Programación_1.Ventanas.CuatroPorCuatro"
+             Title="CuatroPorCuatro">
+
+
+    <ScrollView>
+        <VerticalStackLayout>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+            <Button Text="Encendido" Grid.Column="1" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue"  x:Name="Encendido4" Clicked="btnen4" VerticalOptions="Center" />
+            <Button Text="Apagado" Grid.Column="2" FontSize="50"  Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="Apagado4"  VerticalOptions="Center" />
+            <Button Text="Acelerar" Grid.Column="3" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="Acelerar4"  VerticalOptions="Center" />
+            <Button Text="Frenar" Grid.Column="4" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="Frenar4"  VerticalOptions="Center" />
+            <Button Text="Bocina" Grid.Column="4" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="Bocina4"  VerticalOptions="Center" />
+            <Button Text="ActivarTraccion4x4" Grid.Column="4" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="BloquearDiferenciales4"  VerticalOptions="Center" />
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+
+</ContentPage>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_Programación_1.Ventanas.Conocenos"
+             Title="Conocenos" 
+             
+             BackgroundColor="White"
+             >
+
+<ScrollView>
+        
+    <VerticalStackLayout>
+        <Image
+                Source="c1.png"
+                Margin="-100"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+        <Image
+                Source="c2.png"
+                Margin="-100"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+        <Image
+                Source="c3.png"
+                Margin="-100"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+        <Image
+                Source="c4.png"
+                Margin="-50"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+        <Image
+                Source="c5.png"
+                Margin="-100"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+        <Image
+                Source="c6.png"
+                Margin="-100"
+                HeightRequest="500"
+                HorizontalOptions="Center" 
+                VerticalOptions="Center"
+            />
+
+            
+
+        </VerticalStackLayout>
+        </ScrollView>
+
+
+</ContentPage>

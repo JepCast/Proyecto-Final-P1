@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto_Final_Programación_1.Ventanas.CarList"
+             Title="Lista de Autos"
+             BackgroundColor="AliceBlue"
+             >
+    <ScrollView>
+        <VerticalStackLayout>
+
+        <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+            </Grid>
+
+
+            <Button Text="4X4" Grid.Column="1" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue"  BorderColor="Transparent" x:Name="CXC" Clicked="CuatroPorCuatro" VerticalOptions="Center" />
+            <Button Text="Sedán" Grid.Column="2" FontSize="50"  Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="ListSedan" Clicked="Sedán" VerticalOptions="Center" />
+            <Button Text="PickUp" Grid.Column="3" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="ListPickUp" Clicked="PickUp" VerticalOptions="Center" />
+            <Button Text="SUV" Grid.Column="4" FontSize="50" Margin="10" FontFamily="Comfortaa-Bold.ttf" BackgroundColor="LightBlue" x:Name="ListSUV" Clicked="SUV" VerticalOptions="Center" />
+            
+        </VerticalStackLayout>
+ </ScrollView>
+</ContentPage>
+    
+    
